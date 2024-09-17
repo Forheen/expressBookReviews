@@ -94,7 +94,7 @@ public_users.get('/author/:author', (req, res) => {
             } else {
                 reject(new Error("No books found by this author")); // Reject the promise if no books are found
             }
-        }, 5000); // 1 second delay to mimic async behavior
+        }, 5000); // 5 second delay to mimic async behavior
     });
 
     // Handle the Promise
